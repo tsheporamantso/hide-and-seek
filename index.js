@@ -17,7 +17,7 @@ const form = document.getElementById('form');
 const email = document.getElementById('email');
 
 function isEmail(email) {
-  if (email.toLowerCase() = email) {
+  if (email.toLowerCase() === email) {
     return true;
   }
   return false;
